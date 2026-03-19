@@ -1,0 +1,54 @@
+body {
+  font-family: Arial;
+  background: #111;
+}
+
+.products {
+  background: #eee;
+  padding: 30px;
+  width: 90%;
+  margin: auto;
+}
+
+.products h2 {
+  margin-bottom: 20px;
+  border-bottom: 3px solid blue;
+  display: inline-block;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.price {
+  display: block;
+  margin: 10px 0;
+  color: green;
+}
+
+.price del {
+  color: red;
+  margin-left: 5px;
+}
+
+button {
+  background: #0d6efd;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
